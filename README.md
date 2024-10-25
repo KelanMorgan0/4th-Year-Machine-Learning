@@ -25,4 +25,14 @@ The input section can take one of these countries and a year to predict from
 **linear Regression**
 
 The data is then plot on a graph, Like this example graph of Ireand:
-![graph of irish life expectancy](images/LifeExpectancyIreland.png)
+![graph of irish life expectancy](Images/LifeExpectancyIreland.png)
+
+then using numpy the line of best fit is found for the data, here is the line of best fit for the above graph:
+![graph of irish life expectancy with line of best fit](Images/LifeExpectancyIrelandLinear.png)
+
+**Prediction**
+Using the entered country, year and the line of best fit, the life expectancy is predicted.
+
+For example, with the above graph of Ireland and a year input of 2050 the prediction is:
+
+`predicted life expectancy for Ireland in the year 2050: 90.16580187637373`
